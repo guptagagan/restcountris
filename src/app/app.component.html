@@ -1,0 +1,17 @@
+
+<div class="bg-secondary">
+<h1 class="text-center mt-2 text-white font-weight-bold ">Rest Country Data</h1>
+
+
+<div class="row p-5 align-item-sm-center align-item-md-center justify-content-xl-center justify-content-lg-center justify-content-xs-center">
+
+  <div class="col-lg-3 mb-5 ml-5 mb-lg-0" *ngFor="let product of Data">
+<app-card [name]="product.name" [region]="product.region" [flag]="product.flag" [population] ="product.population.toString()" ></app-card>
+</div>
+
+
+
+</div>
+
+</div>
+
